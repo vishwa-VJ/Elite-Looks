@@ -1,0 +1,28 @@
+<div class="bg">
+
+    <div class="container">
+        <div class="imgs">
+            <img src={{data.img}} class="card-img-top" alt="">
+        </div>
+        <div class="info col">
+            <div class="tinfo">
+                <h1 class="hd"><b>{{data.name}}</b></h1>
+                <h4 class="txt">{{data.subname}}</h4>
+                <h4 class="rate"><label>₹</label><strong>{{data.rate}}</strong><label>/-</label></h4>
+
+                    <p>100% Original Products.</p>
+                    <p>Pay on delivery might be available.</p>
+                    <p>Easy 14 days returns and exchanges.</p>
+                    <p>Try & Buy might be available.</p>
+                    
+            </div>
+            <div class="clks ">    
+                <button class="wish btn btn-outline-secondary" id="wishbtn" (click)="wish()">Add to wishlist</button>
+            </div>
+            <div class="clks back">    
+                <button class="btn btn-outline-secondary" type="button" (click)="close()">Back</button>
+            </div>
+        </div>
+    </div>
+    
+  </div>
